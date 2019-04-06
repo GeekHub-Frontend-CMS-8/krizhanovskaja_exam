@@ -1,0 +1,50 @@
+.portfolio
+  padding: 100px 0
+  .container
+    max-width: 1680px
+    //width: 90%
+    margin: 0 auto
+    .filtr
+      display: flex
+      justify-content: center
+    input[type="radio"]
+      display: none
+    .portfolio-photos
+      display: flex
+      justify-content: center
+      flex-wrap: wrap
+      margin-bottom: 60px
+      img
+        max-width: 300px
+        //width: 30%
+    label
+      text-align: center
+      color: #696970
+      padding: 0.5%
+      margin: 0.5%
+      margin-bottom: 30px
+      cursor: pointer
+      font: 400 12px/48px "Nunito - Extra Bold"
+      text-transform: uppercase
+      &:hover
+        color: #1a1a1d
+        font-family: "Nunito - Black"
+        font-weight: 900
+        letter-spacing: 2.4px
+        border-bottom: 1px solid black
+    .btn-box
+      display: flex
+      justify-content: center
+    .btn
+      padding: 10px
+      justify-content: center
+      color: #ffffff
+      font: 400 14px/30px "Nunito - Extra Bold"
+      text-transform: uppercase
+      letter-spacing: 2.8px
+      border-radius: 30px
+      background-color: #b4d3d3
+
+@media screen and (max-width: 630px)
+  .portfolio-photos
+    align-items: center

@@ -1,0 +1,55 @@
+*{-webkit-box-sizing:border-box;box-sizing:border-box}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+a{text-decoration:none}
+.wrapper{max-width:1760px;margin:0 auto;height:100%}
+header .wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:75px 0}
+header .nav-block-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+header .btn-block{position:relative;width:50px;height:50px;border:0}
+header .main-btn{position:absolute;width:100%;height:100%;border:0}
+header .btn-open{z-index:100;background-color:transparent;color:#1a1a1a}
+header .btn-closed{background-color:transparent;color:transparent}
+header .none{display:none}
+header .menu li a{display:block;padding:10px 15px}
+header .menu-item{margin-right:2px;position:relative;color:#1a1a1d;font:400 14px/30px "Nunito - Extra Bold";text-transform:uppercase;letter-spacing:2.8px}
+header .menu{display:-webkit-box;display:-ms-flexbox;display:flex}
+header a{color:black}
+header a:visited{color:#1a1a1a}
+.welcome .wrapper{display:-webkit-box;display:-ms-flexbox;display:flex}
+.welcome .wrapper .social{margin-left:20px;width:20%}
+.welcome .wrapper .social li{margin-bottom:20px}
+.welcome .wrapper .social li a{color:#1a1a1d}
+.welcome .wrapper #gallery .photos img{max-width:1120px;width:100%;max-height:810px}
+.portfolio{padding:100px 0}
+.portfolio .container{max-width:1680px;margin:0 auto}
+.portfolio .container .filtr{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.portfolio .container input[type="radio"]{display:none}
+.portfolio .container .portfolio-photos{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-bottom:60px}
+.portfolio .container .portfolio-photos img{max-width:300px}
+.portfolio .container label{text-align:center;color:#696970;padding:.5%;margin:.5%;margin-bottom:30px;cursor:pointer;font:400 12px/48px "Nunito - Extra Bold";text-transform:uppercase}
+.portfolio .container label:hover{color:#1a1a1d;font-family:"Nunito - Black";font-weight:900;letter-spacing:2.4px;border-bottom:1px solid black}
+.portfolio .container .btn-box{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.portfolio .container .btn{padding:10px;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;color:#fff;font:400 14px/30px "Nunito - Extra Bold";text-transform:uppercase;letter-spacing:2.8px;border-radius:30px;background-color:#b4d3d3}
+#colophon .wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:100px 0 50px 0}
+#colophon .wrapper .footer-left{margin-right:200px}
+#colophon .wrapper .footer-left .logo{margin-bottom:90px}
+#colophon .wrapper .footer-left p{color:#77777e;font:400 15px/40px Nunito}
+#colophon .wrapper .footer-right{color:#1a1a1d;font:700 14px/30px Nunito;text-transform:uppercase;letter-spacing:2.8px}
+#colophon .wrapper .footer-right .social{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+#colophon .wrapper .footer-right .social a{color:#1a1a1d;margin-left:30px}
+#colophon .wrapper .footer-right div{margin-bottom:100px}
+.contact-heading{background-image:url(../img/contact/Main_img.jpg);background-repeat:no-repeat;background-size:cover}
+.news .container{max-width:1680px;margin:0 auto}
+.news .container h2{position:relative;text-align:center;color:#1a1a1d;font:400 60px/79px Poppins}
+.news .container h2:after{content:'';position:absolute;bottom:0;left:590px;width:150px;height:2px;background-color:#242424}
+.news .container .news-box{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:70px 0}
+.news .container .one_new{display:-webkit-box;display:-ms-flexbox;display:flex;width:30%}
+.news .container .one_new figure{margin-right:40px;width:300px;height:200px}
+.news .container .one_new .news-content{color:#1a1a1d;font:400 20px/1 Poppins}
+@media screen and (max-width:630px){.portfolio-photos{-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+}
